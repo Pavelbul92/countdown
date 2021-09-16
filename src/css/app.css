@@ -1,0 +1,51 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+}
+
+.input {
+    display: flex;
+    flex-flow: column;
+}
+
+.countdown {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdown div {
+    margin-right: 20px;
+
+}
+
+.countdown div:last-of-type {
+    margin: 0;
+}
+
+
+.label {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.digit {
+    font-size: 60px;
+    margin: 0;
+    /* text-align: center; */
+    background: #31d9ff;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 5px;
+    width: 90px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
